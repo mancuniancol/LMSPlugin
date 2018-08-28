@@ -1,0 +1,34 @@
+{
+    "FAUXMO": {
+        "ip_address": "auto"
+    },
+    "PLUGINS": {
+        "LMSPlugin": {
+            "DEVICES": [
+                {
+                    "port": 12345,
+                    "name": "picoreplayer",
+                    "server_ip": "192.168.0.124",
+                    "player_id": "5a:8c:23:5c:f0:bc"
+                },
+                {
+                    "port": 12346,
+                    "name": "101.5 Radio",
+                    "playlist": "http://stream02.ustream.ca:8000/cibl128.mp3"
+                },
+                {
+                    "port": 12347,
+                    "name": "CISM Radio",
+                    "playlist": "http://opml.radiotime.com/Tune.ashx?id=s24807"
+                },
+                {
+                    "port": 12348,
+                    "name": "BBC1 Radio",
+                    "server_ip": "192.168.0.124",
+                    "player_id": "5a:8c:23:5c:f0:bc",
+                    "playlist": "http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p"
+                }
+            ]
+        }
+    }
+}
