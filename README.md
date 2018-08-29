@@ -4,15 +4,15 @@ https://github.com/n8henrie/fauxmo
 
 The devices have 5 properties:
 
-<b>server_ip</b>: Squeezebox server IP address (optional). If it is omitted, it will use localhost as server_ip.
+<b>server_ip</b>: Squeezebox server IP address (optional). If it is omitted, it will use localhost as server_ip. However, this implies that FAUXMO is running in the same machine that Squeezebox server.
 
 <b>player_id</b>: Unique player identifier (optional). It could be obtening by typing `http://[server_ip]:9000/status.html`. It will use the current player in the server.
 
-<b>playlist</b>:  Song path, playlist path, directory or url (optional).  The device will be treated as player or server.
+<b>playlist</b>:  Song path, playlist path, directory or url (optional).  The device will be treated as player or server if this property is omitted.
 
-<b>name</b>: Name of the device.
+<b>name</b>: Name of the device. Mandatory.
 
-<b>port</b>: Port that this device will run on.
+<b>port</b>: Port that this device will run on. Mandatory.
 
 
 For example:
