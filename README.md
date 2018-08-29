@@ -21,7 +21,7 @@ Squeezebox server `LMS` has 3 players  `Kitchen player`, `Living Room player` an
 
 There are 3 playlist.  `101.5 Radio`,` CISM Radio` and `BBC1 Radio`. 
 
-####Option 1. Just the playlists
+###Option 1. Just the playlists
     {
       "FAUXMO": {
         "ip_address": "auto"
@@ -51,7 +51,7 @@ There are 3 playlist.  `101.5 Radio`,` CISM Radio` and `BBC1 Radio`.
 
 It will use the current player and the Squeebox server should be installed in the same machine than FAUXMO
 
-####Option 2. Just the playlists detailed
+###Option 2. Just the playlists detailed
     {
       "FAUXMO": {
         "ip_address": "auto"
@@ -87,7 +87,7 @@ It will use the current player and the Squeebox server should be installed in th
     
 The player can be the same or not, same for the server.
 
-####Option 3. Controlling only the players
+###Option 3. Controlling only the players
     {
       "FAUXMO": {
         "ip_address": "auto"
@@ -136,7 +136,7 @@ The player can be the same or not, same for the server.
       }
     }
     
- ####Option 5. Controlling all
+  ###Option 5. Controlling all
  
      {
       "FAUXMO": {
